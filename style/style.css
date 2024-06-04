@@ -1,3 +1,11 @@
+/* <style> */
+
+ @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+ * {box-sizing : border-box;
+    font-family: cardo;
+    }
+
 .header{
     height: 427px;
     background-image: url("../images/banniere.jpg");
@@ -49,6 +57,10 @@
 .card{
     display: flex;
     flex-direction: row;
+    margin-top: 30px;
+}
+.card:first-child{
+    margin-top: 47px;
 }
 .card-content{
     margin-left: 20px;
@@ -58,16 +70,48 @@
     font-weight: 300;
     opacity: .6;    
 }
-;.card-content h2{
+.card-content h2{
+    font-family: "cardo";
     font-size: 36px;
     font-weight: 700;
 }
-;.card-content p{
+.card-content p{
     font-size: 16px;
     font-weight: 500px;
     text-align: justify;
     line-height: 30px;
+    opacity:.87;
 }
+main {
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+}
+.sidebar-card h2{
+    font-size: 30px;
+    font-weight: 700;
+ }
+.sidebar-link a{
+display: block;
+text-decoration: none;
+margin-bottom: 17px;
+font-weight: 500;
+color: #9f9f9f;
+}
+ section{
+    width: 80%;
+ }
+ aside{
+    width: 20%;
+    padding-top: 30px;
+    padding-left: 40px;
+    margin-left: 120px;
+ }
+
+
+
+
+
 
 
 
